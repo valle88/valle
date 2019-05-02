@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>anemona</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/encabezado.css" rel="stylesheet" type="text/css"/>
+        
+        
+    </head>
+    <body>
+        <header class="cabeza">
+            <img src="imagenes/perfil.jpg" alt="logo pagina"/>
+            <nav id="navegador">
+                <ul>
+                    <li><a href="#">Quien somos</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a href="#">Vale regalo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+         </header>  
+        <main class="contenido">
+           <div class="w3-content w3-display-container">
+                <img class="mySlides" src="/imagenes/playa.png">
+                <img class="mySlides" src="imagenes/nieve.jpg">
+                <img class="mySlides" src="/imagenes/relax1.jpg">
+
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+ 
+            <div class="separacion">
+            <section>
+                <div id="mayor">
+                    <h2>ACTIVIDADES RECOMENDADAS</h2>
+                </div>
+                <div id="articulo">
+                <article class="primero">
+                    <img class="imagenes" src="imagenes/tercera.jpg" alt=""/>
+                    <p class="titulo">Actividades <br> Acuaticas</p>
+                </article>
+                <article class="segundo">
+                    <img class="imagenes" src="imagenes/tercera.jpg" alt=""/>
+                    <p class="titulo">Actividades<br> Montaña</p>
+                </article>
+                </div>
+            </section>
+            <aside>
+                <ul>
+                <li><img src="imagenes/instagram-50.png" alt=""/></li>
+                <li><img src="imagenes/twitter-50.png" alt=""/></li>
+                <li><img src="imagenes/youtube.png" alt=""/></li>
+                <li><img src="imagenes/facebook-50.png" alt=""/></li>
+                </ul>
+            </aside>
+            </div>
+        </main>
+        <footer id="pie">
+            <article class="footer">
+                <ul>
+                    <li>fhsdf</li>
+                    <li>dsfsdf</li>
+                    <li>sadsad</li>
+                </ul>
+            </article>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,236 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabeza{
+   background-color: black;
+    display: flex;
+/*    border: 2px darkblue solid;*/
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#navegador{
+    width: 80%;
+}
+#navegador ul{
+    display: flex;
+    justify-content: space-around;
+/*    border: 2px orange solid;      */
+}
+#navegador ul li{
+    background-color: dodgerblue;
+    width: 24%;
+    text-align: center;
+    border-radius: 20% 20% 0 0;
+    padding: 20px;
+}
+#navegador ul li a{
+    font-size: 24px;
+     color: white;
+}
+#navegador ul li a:hover{
+    color: blueviolet;
+}
+
+/*contenido*/
+
+
+.w3-content{
+    padding: 20px 0 20px 0;
+}
+
+.mySlides{
+    width: 1280px;
+    height: 200px;
+    
+}
+.w3-display-left {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    transform: translate(0%,-50%);
+    
+}
+.w3-display-right {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    transform: translate(0%,-50%);
+}
+ .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+ }
+ .w3-button w3-black w3-display-left{
+     width: 20%;
+ }
+
+ .separacion{
+     display: flex;
+     align-items: stretch;
+ }
+ .separacion section{
+     flex-grow: 4;
+     
+     border: 2px black solid;
+         
+ }
+ .separacion aside{
+     flex-grow: 1;
+     border: 2px brown solid;
+ }
+ #articulo{
+     display: flex; 
+ }
+ #articulo article{
+     width: 50%;
+  margin: 10px;
+  text-align: center;
+/*  line-height: 75px;*/
+  font-size: 30px;
+ }
+ 
+ #mayor{
+     text-align: center;
+     margin: 20px;
+ }
+ #mayor h2{
+     padding: 10px;
+     display: inline-block;
+     text-align: center;
+     border-radius: 20%;
+     background-color: turquoise;
+     
+ }
+ .primero, .segundo{
+     position: relative;
+ }
+ 
+ .titulo{
+     position: absolute;
+     top: 50%;
+     right: 0;
+     left: 0;
+     bottom: 50%;
+ }
+ 
+ 
+
+
+/*
+    font-size: 25px;
+   
+}
+#articulo{
+    border: 2px olivedrab solid;
+    overflow: auto;
+    align-items: center;
+    
+}
+#articulo article{
+    float:left;
+    width: 49%;
+    border: 2px saddlebrown solid;
+    text-align: center; 
+    padding: 5px;
+}
+.imagenes{
+    padding: 20% 0 20% 0;
+}
+.primero{
+    margin: 0 2% 0 auto;
+}
+.primero .titulo{
+    position: absolute;
+  left: 200px;
+  top: 690px;
+}
+.segundo .titulo{
+    position: absolute;
+  left: 670px;
+  top: 690px;
+}
+.titulo{
+   font-size: 34px;
+   color: yellow;
+   
+}
+.separacion aside{
+    float: left;
+    width: 20%;
+    text-align: center;
+    border: 2px black solid;
+   
+}
+.separacion aside ul li{
+   padding: 18.1%;
+}
+.w3-content{
+    padding: 20px 0 20px 0;
+}
+
+.mySlides{
+    width: 1261px;
+    height: 200px;
+    
+}
+.w3-display-left {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    transform: translate(0%,-50%);
+    
+}
+.w3-display-right {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    transform: translate(0%,-50%);
+}
+ .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+ }
+ .w3-button w3-black w3-display-left{
+     width: 20%;
+ }
+
+ footer
+ #pie{
+     
+     background-color: grey;
+ }*/
+
+
